@@ -21,5 +21,11 @@ namespace Demo_2024
         {
             MessageBox.Show("Hello world");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ARE YOU SURE, YOU WANT TO EXIT?");
+            this.Close();
+        }
     }
 }
